@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sabores del CSS - Menú Digital</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Sabores del CSS</h1>
+        </div>
+        <nav class="menu">
+            <a href="#inicio">Inicio</a>
+            <a href="#menu">Menú</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <h2>Bienvenido a Sabores del CSS</h2>
+        <p>Disfruta de una experiencia culinaria única con nuestro menú digital.</p>
+    </section>
+    
+    <main class="contenido-principal">
+        <section class="platos-principales">
+            <h2>Platos Principales</h2>
+        </section>
+
+        <section class="postres">
+            <h2>Postres</h2>
+        </section>
+
+        <section class="bebidas">
+            <h2>Bebidas</h2>
+        </section>
+
+        <section class="contacto" id="contacto">
+            <h2>Contacto</h2>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="contacto-info">
+                <p>También puedes contactarnos directamente:</p>
+                <ul>
+                    <li><a href="tel:+5491234567890">☎️ +54 9 343 4676232</a></li>
+                    <li><a href="mailto:info@saboresdelcss.com">✉️ info@saboresdelcss.com</a></li>
+                </ul>
+            </div>
+            <div class="contacto-direccion">
+                <p>Visítanos en:</p>
+                <p>Av. de la Innovación 123, Ciudad del CSS, Argentina</p>
+                <p>Horario: Martes a Domingo de 10:00 a 00:30</p>
+            </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sabores del CSS. Todos los derechos reservados.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/saboresdelcss" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/saboresdelcss" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.twitter.com/saboresdelcss" target="_blank"><i class="fab fa-twitter"></i></a>
+        </div>
+        <p>Diseñado por <a href="https://github.com/Brian13b" target="_blank">Brian Battauz</a></p>
+    </footer>
+
+</body>
+</html>
