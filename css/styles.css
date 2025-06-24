@@ -267,3 +267,32 @@ footer .social-media a:hover {
     color: #d35400;
     transform: scale(1.1);
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+    .plato {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .contenido-principal h2 {
+        font-size: 2rem;
+    }
+
+    .hero h2 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .contacto-info {
+        width: 90vw;
+        margin: 0 auto;
+    }
+
+    form {
+        max-width: 90vw;
+    }
+}
