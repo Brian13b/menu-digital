@@ -1,0 +1,105 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Header */
+header {
+    background-color: #ff8c00;
+    color: #121212;
+    text-align: center;
+    padding: 20px 0 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    margin: 10px 0 0;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.menu {
+    background-color: #e67e00;
+    padding: 15px 0;
+}
+
+.menu a {
+    color: #121212;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #d35400;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.4)), url('../img/imagen-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 30vh 0;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+/* Contenido principal */
+
+
+/* Footer */
+footer {
+    background-color: #e67e00;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    color: #121212;
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+footer .social-media {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+footer .social-media a {
+    color: #121212;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+footer .social-media a:hover {
+    color: #d35400;
+    transform: scale(1.1);
+}
