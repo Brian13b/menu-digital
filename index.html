@@ -42,30 +42,36 @@
 
         <section class="contacto" id="contacto">
             <h2>Contacto</h2>
-            <form action="#" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
-                
+            <form>
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
                 <button type="submit">Enviar</button>
             </form>
             <div class="contacto-info">
-                <p>También puedes contactarnos directamente:</p>
-                <ul>
-                    <li><a href="tel:+5491234567890">☎️ +54 9 343 4676232</a></li>
-                    <li><a href="mailto:info@saboresdelcss.com">✉️ info@saboresdelcss.com</a></li>
-                </ul>
+                <div class="informacion">
+                    <p>También puedes contactarnos directamente:</p>
+                    <ul>
+                        <li><a href="tel:+5491234567890">☎️ +54 9 343 4676232</a></li>
+                        <li><a href="mailto:info@saboresdelcss.com">✉️ info@saboresdelcss.com</a></li>
+                    </ul>
+                </div>
+                <div class="direccion">
+                    <p>Visítanos en:</p>
+                    <p>Av. de la Innovación 123, Entre Ríos, Argentina</p>
+                    <p>Horario: Martes a Domingo de 10:00 a 00:30</p>
+                </div>
             </div>
-            <div class="contacto-direccion">
-                <p>Visítanos en:</p>
-                <p>Av. de la Innovación 123, Ciudad del CSS, Argentina</p>
-                <p>Horario: Martes a Domingo de 10:00 a 00:30</p>
-            </div>
+        </section>
     </main>
 
     <footer>

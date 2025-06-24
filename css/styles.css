@@ -72,7 +72,107 @@ header p {
 }
 
 /* Contenido principal */
+.contenido-principal {
 
+}
+
+.contenido-principal h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ff8c00;
+    text-align: center;
+}
+
+.platos-principales {
+
+}
+
+/* Contacto */
+.contacto {
+    background-color: #1e1e1e;
+    padding: 40px 0;
+}
+
+.contacto h2 {
+    text-align: center;
+    color: #ff8c00;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 30vw;
+    margin: 0 auto 30px;
+    padding: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    font-size: 1.2rem;
+}
+
+button {
+    background-color: #e67e00;
+    color: #121212;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #d35400;
+}
+
+.contacto-info {
+    width: 85vw;
+    margin: 0 10vw;
+    text-align: left;
+    color: #e0e0e0;
+    font-size: 1.2rem;
+}
+
+.contacto-info .informacion {
+    display: inline-block;
+    width: 40vw;
+    padding-left: 10vw;
+}
+
+.contacto-info .informacion a {
+    color: #e67e00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contacto-info .informacion a:hover {
+    color: #d35400;
+}
+
+.contacto-info .direccion {
+    display: inline-block;
+    width: 40vw;
+    padding-left: 10vw;
+}
 
 /* Footer */
 footer {
