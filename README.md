@@ -1,8 +1,8 @@
-# � Menú Digital Estático - Trabajo Práctico 2
+# Menú Digital Estático - Trabajo Práctico 2
 
 ![Screenshot del Menú Digital]()
 
-## � Descripción
+## Descripción
 Página web estática que muestra el menú de un restaurante ficticio, desarrollada como trabajo práctico para un curso de la UTN. El proyecto cumple con todos los requisitos técnicos solicitados.
 
 ## ✨ Características
