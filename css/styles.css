@@ -73,7 +73,7 @@ header p {
 
 /* Contenido principal */
 .contenido-principal {
-
+    color: #e0e0e0;
 }
 
 .contenido-principal h2 {
@@ -83,8 +83,51 @@ header p {
     text-align: center;
 }
 
-.platos-principales {
+.platos-principales, .postres, .bebidas {
+    text-align: center;
+}
 
+.plato {
+    display: inline-block;
+    width: 40%;
+    margin: 1.5%;
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: #e67e00 5px solid;
+    transition: transform 0.3s ease;
+}
+
+.plato:hover {
+    transform: scale(1.05);
+}
+
+.plato img {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.plato-info {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.plato h3 {
+    font-size: 1.8rem;
+    color: #ff8c00;
+}
+
+.plato p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.plato .precio {
+    font-size: 1.5rem;
+    color: #e67e00;
+    font-weight: bold;
 }
 
 /* Contacto */
